@@ -1,0 +1,51 @@
+
+.my-5{
+    margin-top: 7rem!important;
+    margin-bottom: 3rem!important;
+}
+.align-center {
+    text-align: center;
+}
+/*CENTER DIV*/
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+.my-3{
+    margin-top: 4rem!important;
+    margin-bottom: 3rem!important;
+
+}
+.borderless{
+    border: none;
+
+}
+.col-sm-5cols{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+.col-sm-5cols {
+        width: 20%;
+        float: left;
+    }
+}
+.circle1 {
+    margin-bottom:10px;
+    
+  }
+  .listcircle {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color:aqua;
+    color:black;
+  }
+  
+  
